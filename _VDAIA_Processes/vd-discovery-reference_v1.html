@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --ink:#0c0f14; --muted:#55606f; --accent:#3a6ea5; --accent-dk:#2f5f92;
+    --panel:#eef1f6; --panel-bd:#c2cbd8; --dec:#e5eef7; --hair:#d8dee7;
+  }
+  @page{ size:A4; margin:11mm 13mm 10mm 13mm; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"DejaVu Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:var(--ink); font-size:9pt; line-height:1.32;
+  }
+  h1{ font-size:17pt; margin:0 0 1pt 0; letter-spacing:-0.2pt; }
+  .kicker{ font-size:7.4pt; letter-spacing:1.4pt; text-transform:uppercase;
+    color:var(--accent-dk); font-weight:700; margin-bottom:3pt; }
+  .sub{ color:var(--muted); font-size:9.2pt; margin:0 0 7pt 0; }
+  .rule{ height:2px; background:var(--ink); border:0; margin:0 0 8pt 0; }
+  h2{ font-size:7.8pt; letter-spacing:1.2pt; text-transform:uppercase; color:var(--accent-dk);
+    font-weight:700; margin:0 0 4pt 0; }
+  .section{ margin-bottom:8pt; }
+
+  /* three cards */
+  .cards{ display:flex; gap:8pt; }
+  .card{ flex:1; background:var(--panel); border:1px solid var(--panel-bd);
+    border-radius:8px; padding:7pt 9pt; }
+  .card .lab{ font-size:7pt; letter-spacing:1pt; text-transform:uppercase;
+    color:var(--accent-dk); font-weight:700; }
+  .card .hd{ font-size:10.5pt; font-weight:700; margin:0 0 3pt 0; }
+  .card ul{ margin:3pt 0 0 0; padding-left:11pt; }
+  .card li{ margin-bottom:1pt; }
+  .card p{ margin:0; color:#26303c; }
+
+  /* primitive strip */
+  .strip{ display:flex; align-items:stretch; gap:0; margin:1pt 0 4pt 0; }
+  .node{ background:var(--panel); border:1px solid var(--panel-bd); border-radius:7px;
+    padding:6pt 5pt; text-align:center; font-weight:600; font-size:8.4pt;
+    display:flex; align-items:center; justify-content:center; flex:1; }
+  .node.start{ background:var(--ink); color:#fff; border-color:var(--ink); }
+  .node.gate{ background:var(--dec); border-color:var(--accent); border-width:1.6px; }
+  .arrow{ display:flex; align-items:center; padding:0 4pt; color:#7a828f;
+    font-size:11pt; font-weight:700; }
+  .cap{ color:var(--muted); font-size:8.4pt; margin:0; }
+
+  /* dials + tiers */
+  .split{ display:flex; gap:10pt; }
+  .split .col{ flex:1; }
+  .dials{ margin:0; padding:0; list-style:none; }
+  .dials li{ margin-bottom:3pt; }
+  .dials b{ color:var(--ink); }
+  .dials span{ color:var(--muted); }
+  .tiers{ background:var(--panel); border:1px solid var(--panel-bd); border-radius:8px;
+    padding:7pt 9pt; }
+  .tiers .t{ margin-bottom:4pt; }
+  .tiers .t:last-child{ margin-bottom:0; }
+  .tiers .name{ font-weight:700; color:var(--accent-dk); }
+
+  /* through-lines band */
+  .band{ background:var(--dec); border:1px solid var(--accent); border-radius:8px;
+    padding:7pt 10pt; display:flex; gap:14pt; }
+  .band .item{ flex:1; }
+  .band .item b{ display:block; margin-bottom:1pt; }
+  .band .item span{ color:#33465a; }
+
+  .disc{ margin:0; padding-left:13pt; }
+  .disc li{ margin-bottom:2pt; }
+
+  .foot{ margin-top:8pt; border-top:1px solid var(--hair); padding-top:5pt;
+    color:var(--muted); font-size:7.6pt; display:flex; justify-content:space-between; }
+
+  /* worksheet */
+  .ws{ page-break-before:always; }
+  .field{ margin-bottom:8pt; }
+  .field .q{ font-weight:700; font-size:8.6pt; margin-bottom:3pt; }
+  .line{ border-bottom:1px solid var(--panel-bd); height:13pt; }
+  .line.tall{ height:13pt; margin-bottom:3pt; }
+  .opts{ display:flex; flex-wrap:wrap; gap:5pt 16pt; }
+  .opt{ display:flex; align-items:center; gap:5pt; font-size:8.8pt; }
+  .box{ width:10px; height:10px; border:1.4px solid var(--ink); border-radius:2px;
+    display:inline-block; }
+  .row2{ display:flex; gap:14pt; }
+  .row2 .field{ flex:1; }
+  .note{ color:var(--muted); font-size:8pt; }
+</style>
+</head>
+<body>
+
+  <div class="kicker">VortexDeep · Internal discovery reference</div>
+  <h1>One shape underneath every problem</h1>
+  <p class="sub">How to place a client's problem, show where the human stays in control, and scope it the same way every time.</p>
+  <hr class="rule">
+
+  <div class="section">
+    <h2>Three layers</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="lab">What we solve</div>
+        <div class="hd">The problem map</div>
+        <p>Four groups, ten sub-processes — organised the way an owner thinks, by function and pain, not by tools.</p>
+        <ul>
+          <li>Communication &amp; Customers — intake · support · scheduling</li>
+          <li>Sales &amp; Growth — pipeline · content · e-commerce</li>
+          <li>Documents &amp; Finance — document/data · finance &amp; admin</li>
+          <li>Operations &amp; Insight — internal ops · reporting</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="lab">How it's built</div>
+        <div class="hd">The primitive</div>
+        <p>Nearly every solution is the same shape (below). Departments differ; the mechanics rarely do — so most work is adaptation from reusable blocks, not invention.</p>
+      </div>
+      <div class="card">
+        <div class="lab">How it's delivered</div>
+        <div class="hd">The method</div>
+        <p>Six phases: Discovery → Scope → Solution → Build → Validation → Live. Written sign-off at each. A human approves — not full autopilot.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>The primitive</h2>
+    <div class="strip">
+      <div class="node start">Trigger</div>
+      <div class="arrow">→</div>
+      <div class="node">Capture</div>
+      <div class="arrow">→</div>
+      <div class="node">Classify / Decide</div>
+      <div class="arrow">→</div>
+      <div class="node gate">Draft or act —<br>held for a human</div>
+      <div class="arrow">→</div>
+      <div class="node">Route · File · Log</div>
+    </div>
+    <p class="cap">Almost every solution is this shape. The only things that change between them are the dials below.</p>
+  </div>
+
+  <div class="section">
+    <h2>The dials that set effort &amp; price</h2>
+    <div class="split">
+      <div class="col">
+        <ul class="dials">
+          <li><b>Trigger</b> — <span>inbound event · scheduled · threshold-monitored</span></li>
+          <li><b>Decision classes / branches</b> — <span>none · one · several · multi-dimensional (e.g. language × type)</span></li>
+          <li><b>Systems touched</b> — <span>inbox · CRM · accounting · calendar · document store · data feed</span></li>
+          <li><b>Human gates</b> — <span>drafted reply held for approval · internal notify · money / publish sign-off</span></li>
+          <li><b>Fan-out</b> — <span>one input producing several drafts</span></li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="tiers">
+          <div class="t"><span class="name">Base</span> — capture, route, file/log; little or no branching.</div>
+          <div class="t"><span class="name">Base + triage</span> — classify into a few classes + a drafted reply held for review.</div>
+          <div class="t"><span class="name">Multi-branch</span> — several decision points or checks before routing.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Two things that are always true</h2>
+    <div class="band">
+      <div class="item"><b>Approve-before-send</b><span>The human stays in control. That's the product, not a caveat — and usually the reassurance that closes the trust gap.</span></div>
+      <div class="item"><b>Everything ends in a log / file / index</b><span>Quiet auditability by default — which sits well with Swiss/EU record-keeping habits.</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Using this in discovery</h2>
+    <ul class="disc">
+      <li>Place the problem on the map, then sketch the primitive back to the client in their own words — fast, visible alignment.</li>
+      <li>Walk the five dials out loud; each answer is a scoping fact, not a guess (worksheet overleaf).</li>
+      <li>Point at the human gate explicitly — it's where "assistant, not autopilot" becomes concrete.</li>
+      <li>If a request doesn't fit the shape — autonomous, real-time, heavy data science, or a big one-off migration — say so early.</li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    <span>VortexDeep — plain, practical, human in control.</span>
+    <span>Pairs with the "Problems We Solve" pattern catalogue (20 examples).</span>
+  </div>
+
+  <!-- ===================== PAGE 2: WORKSHEET ===================== -->
+  <div class="ws">
+    <div class="kicker">VortexDeep · Scoping worksheet</div>
+    <h1>Scoping worksheet</h1>
+    <p class="sub">One situation per sheet. Capture the dials during the call — the tier and the estimate follow from them.</p>
+    <hr class="rule">
+
+    <div class="row2">
+      <div class="field"><div class="q">Client</div><div class="line"></div></div>
+      <div class="field"><div class="q">Date</div><div class="line"></div></div>
+      <div class="field"><div class="q">Owner</div><div class="line"></div></div>
+    </div>
+
+    <div class="field">
+      <div class="q">Situation — who, what pain, what trigger</div>
+      <div class="line tall"></div><div class="line tall"></div>
+    </div>
+
+    <div class="field">
+      <div class="q">Trigger</div>
+      <div class="opts">
+        <span class="opt"><span class="box"></span> Inbound event</span>
+        <span class="opt"><span class="box"></span> Scheduled / time-based</span>
+        <span class="opt"><span class="box"></span> Threshold / monitored</span>
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="field">
+        <div class="q">Decision classes / branches — count</div>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <div class="q">Dimensions (e.g. type × language)</div>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="q">Systems touched</div>
+      <div class="opts">
+        <span class="opt"><span class="box"></span> Inbox / email</span>
+        <span class="opt"><span class="box"></span> CRM</span>
+        <span class="opt"><span class="box"></span> Accounting</span>
+        <span class="opt"><span class="box"></span> Calendar</span>
+        <span class="opt"><span class="box"></span> Document store</span>
+        <span class="opt"><span class="box"></span> Data feed</span>
+        <span class="opt"><span class="box"></span> Other:</span>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="q">Human gates</div>
+      <div class="opts">
+        <span class="opt"><span class="box"></span> Drafted reply held for approval</span>
+        <span class="opt"><span class="box"></span> Internal notify</span>
+        <span class="opt"><span class="box"></span> Money / publish sign-off</span>
+      </div>
+    </div>
+
+    <div class="row2">
+      <div class="field">
+        <div class="q">Fan-out (one input → several outputs)?</div>
+        <div class="opts">
+          <span class="opt"><span class="box"></span> No</span>
+          <span class="opt"><span class="box"></span> Yes — how many:</span>
+        </div>
+      </div>
+      <div class="field">
+        <div class="q">Rough volume (per day / week)</div>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="q">Tier</div>
+      <div class="opts">
+        <span class="opt"><span class="box"></span> Base</span>
+        <span class="opt"><span class="box"></span> Base + triage</span>
+        <span class="opt"><span class="box"></span> Multi-branch</span>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="q">Closest existing pattern (from catalogue)</div>
+      <div class="line"></div>
+    </div>
+
+    <div class="field">
+      <div class="q">Notes / risks / integrations to confirm</div>
+      <div class="line tall"></div><div class="line tall"></div><div class="line tall"></div>
+    </div>
+
+    <p class="note">Reminder: this scopes recurring, supervised, moderate-volume office work. Flag anything autonomous, real-time, data-science-heavy, or a large one-off migration as out-of-shape before quoting.</p>
+
+    <div class="foot">
+      <span>VortexDeep — plain, practical, human in control.</span>
+      <span>Signals map straight to the mgredshift "base + triage" precedent for pricing.</span>
+    </div>
+  </div>
+
+</body>
+</html>
