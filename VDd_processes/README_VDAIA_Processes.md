@@ -20,7 +20,7 @@ into it.
 | `vd-scoping-worksheet_v2.docx` / `.pdf` | Fill-anywhere form: dials per candidate process | Per-process capture → **Quick Diagnostic** + **Pricing Calculator** adders | Yes — one per process |
 | `vortexdeep-flows.pdf` | All 29 flow diagrams, one per page, labelled | Design reference (**Workflows Library** companion, Phase 3) + discovery visual | No — reference |
 | `g*.svg` / `g*.png`, `add*.svg` / `add*.png` | Individual flow diagrams (SVG for web/site, PNG for docs) | Site content + diagram source | No — assets |
-| `problems_we_solve_taxonomy_reconciliation.svg` / `.png` | Taxonomy map | Phase 0 reference — **finalise to the 19** | No — reference |
+| `problems_we_solve_taxonomy_reconciliation.svg` / `.png` | Taxonomy map | Company Targeting reference — **finalise to the 19** | No — reference |
 
 ## Tier ↔ package (pricing)
 - Base → **Basic**  ·  Base + triage → **Pro**  ·  Multi-branch → **Pro / Managed**  ·  (autonomous → Agentic, mostly out-of-shape)
