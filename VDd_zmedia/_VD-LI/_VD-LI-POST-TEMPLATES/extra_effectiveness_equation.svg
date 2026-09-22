@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><radialGradient id="halo"><stop offset="0" stop-color="#7fd8c4" stop-opacity="0.85"/><stop offset="38%" stop-color="#7fd8c4" stop-opacity="0.30"/><stop offset="100%" stop-color="#7fd8c4" stop-opacity="0"/></radialGradient><radialGradient id="vig" cx="50%" cy="2%" r="95%"><stop offset="0" stop-color="#12181f"/><stop offset="72%" stop-color="#0a0e12"/></radialGradient></defs><rect width="1200" height="1200" fill="url(#vig)"/><g stroke="#8fa0aa" stroke-width="1" fill="none" opacity="0.15">
+<line x1="120" y1="150" x2="360" y2="80"/>
+<line x1="360" y1="80" x2="600" y2="60"/>
+<line x1="600" y1="60" x2="1080" y2="120"/>
+<line x1="1080" y1="120" x2="950" y2="300"/>
+<line x1="950" y1="300" x2="1120" y2="520"/>
+<line x1="1120" y1="520" x2="1010" y2="700"/>
+<line x1="1010" y1="700" x2="1090" y2="900"/>
+<line x1="1090" y1="900" x2="900" y2="1010"/>
+<line x1="900" y1="1010" x2="620" y2="1140"/>
+<line x1="620" y1="1140" x2="360" y2="1110"/>
+<line x1="360" y1="1110" x2="110" y2="980"/>
+<line x1="110" y1="980" x2="200" y2="760"/>
+<line x1="200" y1="760" x2="90" y2="430"/>
+<line x1="90" y1="430" x2="120" y2="150"/>
+<line x1="360" y1="80" x2="240" y2="300"/>
+<line x1="240" y1="300" x2="90" y2="430"/>
+<line x1="950" y1="300" x2="1010" y2="700"/>
+<line x1="360" y1="1110" x2="700" y2="1080"/>
+<line x1="700" y1="1080" x2="620" y2="1140"/>
+</g><g fill="#9fb0ba" opacity="0.5">
+<circle cx="120" cy="150" r="3"/>
+<circle cx="360" cy="80" r="3"/>
+<circle cx="600" cy="60" r="3"/>
+<circle cx="1080" cy="120" r="3"/>
+<circle cx="950" cy="300" r="3"/>
+<circle cx="1120" cy="520" r="3"/>
+<circle cx="90" cy="430" r="3"/>
+<circle cx="200" cy="760" r="3"/>
+<circle cx="110" cy="980" r="3"/>
+<circle cx="360" cy="1110" r="3"/>
+<circle cx="620" cy="1140" r="3"/>
+<circle cx="900" cy="1010" r="3"/>
+<circle cx="1090" cy="900" r="3"/>
+<circle cx="1010" cy="700" r="3"/>
+<circle cx="700" cy="1080" r="3"/>
+<circle cx="240" cy="300" r="3"/></g><polygon points="600.0,145.0 626.0,160.0 626.0,190.0 600.0,205.0 574.0,190.0 574.0,160.0" fill="none" stroke="#9fb0ba" stroke-width="2.4" stroke-linejoin="round"/><circle cx="600.0" cy="145.0" r="3.5" fill="#9fb0ba"/><circle cx="626.0" cy="160.0" r="3.5" fill="#9fb0ba"/><circle cx="626.0" cy="190.0" r="3.5" fill="#9fb0ba"/><circle cx="600.0" cy="205.0" r="3.5" fill="#9fb0ba"/><circle cx="574.0" cy="190.0" r="3.5" fill="#9fb0ba"/><circle cx="574.0" cy="160.0" r="3.5" fill="#9fb0ba"/><text x="600" y="183" text-anchor="middle" font-family="DejaVu Serif" font-size="26" fill="#e6e8e3" letter-spacing="1">VD</text><text x="600" y="258" text-anchor="middle" font-family="DejaVu Serif" font-size="25" fill="#8b939c" letter-spacing="7">AN IDEA FROM PHYSICS</text><text x="600" y="380" text-anchor="middle" font-family="DejaVu Serif" font-size="56" fill="#e6e8e3" letter-spacing="5">FEWER ZEROS,</text><text x="600" y="450" text-anchor="middle" font-family="DejaVu Serif" font-size="56" fill="#e6e8e3" letter-spacing="5">NOT MORE HOURS</text><text x="600" y="480" text-anchor="middle" font-family="DejaVu Serif" font-size="30" fill="#dfe1dc" letter-spacing="2">EFFECTIVENESS =</text><circle cx="300" cy="562" r="26" fill="url(#halo)"/><circle cx="300" cy="562" r="9" fill="#7fd8c4"/><text x="300" y="620" text-anchor="middle" font-family="DejaVu Serif" font-size="30" fill="#7fd8c4" letter-spacing="1">ENERGY</text><text x="450" y="620" text-anchor="middle" font-family="DejaVu Serif" font-size="34" fill="#828a93">×</text><circle cx="600" cy="562" r="9" fill="none" stroke="#8b939c" stroke-width="2.4"/><text x="600" y="620" text-anchor="middle" font-family="DejaVu Serif" font-size="30" fill="#8b939c" letter-spacing="1">ALIGNMENT</text><text x="765" y="620" text-anchor="middle" font-family="DejaVu Serif" font-size="34" fill="#828a93">×</text><circle cx="910" cy="562" r="9" fill="none" stroke="#8b939c" stroke-width="2.4"/><text x="910" y="620" text-anchor="middle" font-family="DejaVu Serif" font-size="30" fill="#8b939c" letter-spacing="1">TIMING</text><text x="600" y="712" text-anchor="middle" font-family="DejaVu Serif" font-size="27" fill="#8b939c">Multipliers, not addends. One zero zeros it all.</text><text x="600" y="965" text-anchor="middle" font-family="DejaVu Serif" font-size="26" fill="#7fd8c4" letter-spacing="1">automation removes the zeros</text><line x1="400" y1="1010" x2="800" y2="1010" stroke="#ffffff" stroke-opacity="0.08"/><circle cx="600" cy="1010" r="18" fill="url(#halo)"/><circle cx="600" cy="1010" r="6" fill="#7fd8c4"/><text x="600" y="1055" text-anchor="middle" font-family="DejaVu Serif" font-size="24" fill="#7e868f" letter-spacing="3">vortexdeep.ch</text></svg>

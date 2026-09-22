@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><defs><radialGradient id="halo"><stop offset="0" stop-color="#7fd8c4" stop-opacity="0.85"/><stop offset="38%" stop-color="#7fd8c4" stop-opacity="0.30"/><stop offset="100%" stop-color="#7fd8c4" stop-opacity="0"/></radialGradient><radialGradient id="vig" cx="50%" cy="2%" r="95%"><stop offset="0" stop-color="#12181f"/><stop offset="72%" stop-color="#0a0e12"/></radialGradient></defs><rect width="1200" height="1200" fill="url(#vig)"/><g stroke="#8fa0aa" stroke-width="1" fill="none" opacity="0.13">
+<line x1="120" y1="150" x2="360" y2="80"/>
+<line x1="360" y1="80" x2="600" y2="60"/>
+<line x1="600" y1="60" x2="1080" y2="120"/>
+<line x1="1080" y1="120" x2="950" y2="300"/>
+<line x1="950" y1="300" x2="1120" y2="520"/>
+<line x1="1120" y1="520" x2="1010" y2="700"/>
+<line x1="1010" y1="700" x2="1090" y2="900"/>
+<line x1="1090" y1="900" x2="900" y2="1010"/>
+<line x1="900" y1="1010" x2="620" y2="1140"/>
+<line x1="620" y1="1140" x2="360" y2="1110"/>
+<line x1="360" y1="1110" x2="110" y2="980"/>
+<line x1="110" y1="980" x2="200" y2="760"/>
+<line x1="200" y1="760" x2="90" y2="430"/>
+<line x1="90" y1="430" x2="120" y2="150"/>
+<line x1="360" y1="80" x2="240" y2="300"/>
+<line x1="240" y1="300" x2="90" y2="430"/>
+<line x1="950" y1="300" x2="1010" y2="700"/>
+<line x1="360" y1="1110" x2="700" y2="1080"/>
+<line x1="700" y1="1080" x2="620" y2="1140"/>
+</g><g fill="#9fb0ba" opacity="0.45">
+<circle cx="120" cy="150" r="3"/>
+<circle cx="360" cy="80" r="3"/>
+<circle cx="600" cy="60" r="3"/>
+<circle cx="1080" cy="120" r="3"/>
+<circle cx="950" cy="300" r="3"/>
+<circle cx="1120" cy="520" r="3"/>
+<circle cx="90" cy="430" r="3"/>
+<circle cx="200" cy="760" r="3"/>
+<circle cx="110" cy="980" r="3"/>
+<circle cx="360" cy="1110" r="3"/>
+<circle cx="620" cy="1140" r="3"/>
+<circle cx="900" cy="1010" r="3"/>
+<circle cx="1090" cy="900" r="3"/>
+<circle cx="1010" cy="700" r="3"/>
+<circle cx="700" cy="1080" r="3"/>
+<circle cx="240" cy="300" r="3"/></g><polygon points="600.0,129.0 622.5,142.0 622.5,168.0 600.0,181.0 577.5,168.0 577.5,142.0" fill="none" stroke="#9fb0ba" stroke-width="2.2" stroke-linejoin="round"/><circle cx="600.0" cy="129.0" r="3" fill="#9fb0ba"/><circle cx="622.5" cy="142.0" r="3" fill="#9fb0ba"/><circle cx="622.5" cy="168.0" r="3" fill="#9fb0ba"/><circle cx="600.0" cy="181.0" r="3" fill="#9fb0ba"/><circle cx="577.5" cy="168.0" r="3" fill="#9fb0ba"/><circle cx="577.5" cy="142.0" r="3" fill="#9fb0ba"/><text x="600" y="162" text-anchor="middle" font-family="DejaVu Serif" font-size="22" fill="#e6e8e3">VD</text><text x="600" y="228" text-anchor="middle" font-family="DejaVu Serif" font-size="24" fill="#8b939c" letter-spacing="7">YOUR OPS ARE A 6-PART SYSTEM</text><text x="600" y="312" text-anchor="middle" font-family="DejaVu Serif" font-size="48" fill="#e6e8e3" letter-spacing="4">IT BREAKS IN</text><text x="600" y="372" text-anchor="middle" font-family="DejaVu Serif" font-size="48" fill="#e6e8e3" letter-spacing="4">THE SAME 6 PLACES</text><polygon points="600.0,467.0 762.8,561.0 762.8,749.0 600.0,843.0 437.2,749.0 437.2,561.0" fill="none" stroke="#8fa0aa" stroke-width="1.5" opacity="0.5"/><text x="600" y="649" text-anchor="middle" font-family="DejaVu Serif" font-size="26" fill="#8b939c" letter-spacing="3">ONE</text><text x="600" y="685" text-anchor="middle" font-family="DejaVu Serif" font-size="26" fill="#8b939c" letter-spacing="3">SYSTEM</text><circle cx="600.0" cy="467.0" r="9" fill="#9fb0ba"/><text x="600" y="437" text-anchor="middle" font-family="DejaVu Serif" font-size="27" fill="#dfe1dc" letter-spacing="1">1. INTAKE</text><circle cx="762.8" cy="561.0" r="9" fill="#9fb0ba"/><text x="789" y="567" text-anchor="start" font-family="DejaVu Serif" font-size="27" fill="#dfe1dc" letter-spacing="1">2. ROUTING</text><circle cx="762.8" cy="749.0" r="9" fill="#9fb0ba"/><text x="789" y="755" text-anchor="start" font-family="DejaVu Serif" font-size="27" fill="#dfe1dc" letter-spacing="1">3. EXECUTION</text><circle cx="600.0" cy="843.0" r="30" fill="url(#halo)"/><circle cx="600.0" cy="843.0" r="11" fill="#7fd8c4"/><text x="600" y="889" text-anchor="middle" font-family="DejaVu Serif" font-size="27" fill="#7fd8c4" letter-spacing="1">4. APPROVAL</text><circle cx="437.2" cy="749.0" r="9" fill="#9fb0ba"/><text x="411" y="755" text-anchor="end" font-family="DejaVu Serif" font-size="27" fill="#dfe1dc" letter-spacing="1">5. RECORD</text><circle cx="437.18722408852557" cy="561.0" r="30" fill="url(#halo)"/><circle cx="437.18722408852557" cy="561.0" r="11" fill="#7fd8c4"/><text x="411" y="567" text-anchor="end" font-family="DejaVu Serif" font-size="27" fill="#7fd8c4" letter-spacing="1">6. TRUST</text><text x="600" y="948" text-anchor="middle" font-family="DejaVu Serif" font-size="24" fill="#7fd8c4" letter-spacing="1">4 &amp; 6 are the ones autonomy tools skip</text><line x1="380" y1="998" x2="820" y2="998" stroke="#ffffff" stroke-opacity="0.08"/><text x="600" y="1050" text-anchor="middle" font-family="DejaVu Serif" font-size="26" fill="#dfe1dc" letter-spacing="1">Which part is costing you the most?</text><text x="600" y="1098" text-anchor="middle" font-family="DejaVu Serif" font-size="21" fill="#7e868f" letter-spacing="3">vortexdeep.ch</text></svg>
